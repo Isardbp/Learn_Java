@@ -8,6 +8,6 @@ public class Estudiante extends Persona{
 		this.notaFinal = notaFinal;
 	}	
 	public void mostrarDatos(){
-		System.out.println("Nombre: "+nombre+ "\nApellido: "+getApellido()+"\nEdad: " + getEdad() + "\nCodigo Estudiante" + codigoEstudiante+ "\nNota Fianl: "+ notaFinal);
+		System.out.println("Nombre: "+nombre+ "\nApellido: "+getApellido()+"\nEdad: " + getEdad() + "\nCodigo Estudiante: " + codigoEstudiante+ "\nNota Fianl: "+ notaFinal);
 	}
 }	
